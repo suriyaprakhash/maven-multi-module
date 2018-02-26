@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: admin-server
+
+server:
+  port: 1111
+  
+#security for admin
+security:
+  user:
+    name: admin
+    password: secret
